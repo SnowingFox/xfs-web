@@ -20,7 +20,7 @@ export function InnerApp() {
           </div>
           <p
             className={
-              'flex justify-center w-full pb-4 text-center text-tertiary-label text-xs bottom-0 absolute'
+              'flex justify-center w-full pb-4 text-center text-tertiary-label text-xs bottom-0'
             }
           >
             辽ICP备2023007213号-2 辽公网安备21050402000086号

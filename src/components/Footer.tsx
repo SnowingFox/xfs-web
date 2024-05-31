@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className={'absolute bottom-12 flex w-full justify-center'}>
+    <div className={'fixed w-full bottom-12 flex justify-center'}>
       <a
         href="intent://#Intent;package=snowingfox.book.app;end"
         className={
