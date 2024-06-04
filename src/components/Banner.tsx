@@ -17,6 +17,7 @@ export const Banner: React.FC = () => {
   return (
     <div className={'space-y-4'}>
       <Swiper
+      className={'w-full h-[450px]'}
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={(swiper) => setActiveIdx(swiper.activeIndex)}
@@ -24,7 +25,7 @@ export const Banner: React.FC = () => {
         {data?.imgs.map((item) => (
           <SwiperSlide
             key={item}
-            className={'w-full h-[500px] bg-img-background'}
+            className={'bg-img-background'}
           >
             <LazyLoadImage
               onLoad={() => {
