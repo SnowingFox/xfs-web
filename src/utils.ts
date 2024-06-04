@@ -29,10 +29,10 @@ export function formatDate(time: string) {
       .replace('大约 ', '')
   } else if (diffInDays < 3) {
     return `${diffInDays}天前`
-  } else if (diffInYears >= 1) {
-    return format(date, 'MM/dd', { locale: zhCN }).toString()
+  } else if (diffInYears <= 1) {
+    return format(date, 'MM-dd', { locale: zhCN }).toString()
   } else {
-    return format(date, 'yyyy/MM/dd', { locale: zhCN }).toString()
+    return format(date, 'yyyy-MM-dd', { locale: zhCN }).toString()
   }
 }
 

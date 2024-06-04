@@ -4,7 +4,7 @@ export function Footer() {
       <a
         href="https://xq261aa61x.feishu.cn/file/JNGjbxYFyoswqExUQiBccXKsnxh?from=from_copylink"
         className={
-          'bg-primary text-white text-sm rounded-full px-4 py-2 shadow-lg shadow-primary'
+          'bg-primary text-white text-sm rounded-full px-4 py-2 '
         }
       >
         下载小肥书App
