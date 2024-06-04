@@ -10,9 +10,10 @@ export const Text2Emoji = (text : string)  => {
 
   // 返回Img标签
   const getEmojiPng = (Chinese: string) => {
-    const png = EmojiList.filter(item => item.name === `[/${Chinese}]`)
+    const pngItem = EmojiList.filter(item => item.name === `[/${Chinese}]`)
+    const png = new URL(`../assets/emoji/${pngItem[0].path}`,import.meta.url).href
 
-    return <img className=" inline-block h-5 w-5 align-center mx-1" src={`src/assets/emoji/${png[0].path}`} alt={`${Chinese}`}/>
+    return <img className=" inline-block h-5 w-5 align-center mx-1" src={png} alt={`${Chinese}`}/>
   }
   
   return<>
