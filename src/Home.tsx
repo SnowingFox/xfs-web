@@ -11,7 +11,8 @@ export const Home: React.FC = () => {
         <div className={'w-screen h-screen flex-col bg-white overflow-hidden flex items-center'}>
             <div className="mt-32">
                 <img src={logo} className={'w-32 h-32'} />
-                <p className="text-center mt-4 text-xl font-bold text-black/70">小肥书</p>
+                <p className="text-center mt-4 text-xl font-bold text-black/75">小肥书</p>
+                <p className="text-black/60 mt-4">群号：813152217</p>
             </div>
             <div className="flex-col space-y-2 mt-4 mt-40">
                 <div
