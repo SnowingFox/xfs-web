@@ -22,7 +22,7 @@ export const Home: React.FC = () => {
                     }}
                 >点我下载Android</div>
                 <div onClick={() => {
-                    jumpDownloadURL("https://testflight.apple.com/join/qTFiYMCl")
+                    jumpDownloadURL("https://testflight.apple.com/join/Na1pBlMa")
                 }} className="w-80 text-center rounded-full p-3 text-primary font-bold bg-white border-primary border-[1px]">下载IOS（testflight)</div>
             </div>
         </div>
